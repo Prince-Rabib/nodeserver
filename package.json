@@ -1,8 +1,11 @@
 {
   "name": "backend-practice",
   "version": "1.0.0",
-  "description": "practice node js",
+  "description": "",
   "main": "app.js",
+  "engines": {
+    "node": "14.x"
+  },
   "dependencies": {
     "axios": "^0.24.0",
     "bcrypt": "^5.0.1",
@@ -19,9 +22,16 @@
   },
   "devDependencies": {},
   "scripts": {
-    "start": "node app.js",
-    "server": "nodemon app"
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Prince-Rabib/nodeserver.git"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Prince-Rabib/nodeserver/issues"
+  },
+  "homepage": "https://github.com/Prince-Rabib/nodeserver#readme"
 }
