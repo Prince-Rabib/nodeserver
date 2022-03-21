@@ -1,0 +1,5 @@
+{
+    "mongooseURI" : "mongodb+srv://dbuser:mombu1234@cluster0.y5hri.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
+    "secretkey": "Mombu1234$"
+    
+}
