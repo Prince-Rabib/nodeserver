@@ -19,7 +19,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "start": "node server",
+    "start": "node server.js",
     "server": "nodemon server"
   },
   "author": "",
