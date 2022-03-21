@@ -2,7 +2,7 @@
   "name": "backend-practice",
   "version": "1.0.0",
   "description": "practice node js",
-  "main": "server.js",
+  "main": "app.js",
   "dependencies": {
     "axios": "^0.24.0",
     "bcrypt": "^5.0.1",
@@ -19,8 +19,8 @@
   },
   "devDependencies": {},
   "scripts": {
-    "start": "node server.js",
-    "server": "nodemon server"
+    "start": "node app.js",
+    "server": "nodemon app"
   },
   "author": "",
   "license": "ISC"
