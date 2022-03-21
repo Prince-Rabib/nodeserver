@@ -7,11 +7,7 @@ const connectdb = require('./config/db');
 
 const app = express();
 
-const PORT = process.env.PORT || 5000;
 
-app.listen(PORT, () => {
-  console.log('Server started on port ' + PORT);
-});
 app.use(cors());
 app.use(express.json({ extended: false }));
 
@@ -25,5 +21,9 @@ app.get('/', (req, res) => {
 app.use('/api/mechanics', mechanic);
 app.use('/api/appointment', appointment);
 
+const PORT = process.env.PORT || 5000;
 
-
+const server = app.listen(process.env.PORT || 5000, () => {
+  const port = server.address().port;
+  console.log(`Express is working on port ${port}`);
+});
