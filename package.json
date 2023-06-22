@@ -19,7 +19,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "start": "NODE_ENV=production node ./app"
+    "start": "NODE_ENV=production node ./index"
   },
   "repository": {
     "type": "git",
