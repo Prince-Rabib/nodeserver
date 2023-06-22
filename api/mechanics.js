@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
 const Mechanic = require('../model/mechanics');
-const { check, validationResult } = require('express-Validator');
+const { check, validationResult } = require('express-validator');
 
 router.get('/', (req, res) => {
   res.send('User users');
